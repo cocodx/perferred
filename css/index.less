@@ -52,5 +52,53 @@
         }
       }
     }
+    //下面部分
+    .headBottom{
+      //版本元素
+      .headBottomMain{
+        width: 1200px;
+        margin: 0 auto;
+        .clearfix();
+        //logo
+        .logo{
+          float: left;
+          a{
+            img{
+              width: 175px;
+              height: 56px;
+              margin: 25px 45px;
+            }
+          }
+        }
+        //搜索框
+        .search{
+          float: right;
+          margin-top: 35px;
+          input{
+            //文本框
+            &:first-child{
+              box-sizing: border-box;
+              width: 490px;
+              height: 32px;
+              padding: 0 4px;
+              border: 3px solid #ea4a36;
+              float: left;
+            }
+            //提交按钮
+            &:last-child{
+              width: 68px;
+              height: 32px;
+              color: #fff;
+              background: #ea4a36;
+              border: none;
+            }
+            //修饰placeholder
+            &::-webkit-input-placeholder{
+              color: yellowgreen;
+            }
+          }
+        }
+      }
+    }
   }
 }
