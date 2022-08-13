@@ -16,6 +16,7 @@
         .clearfix();
         //左侧
         .left{
+          float: left;
           h5{
             float: left;
             margin-right: 5px;
@@ -27,6 +28,24 @@
                 border-right: 1px solid #b3aeae;
                 margin-right: 0;
                 padding-right: 5px;
+              }
+            }
+          }
+        }
+        //右侧
+        .right{
+          float: right;
+          nav{
+            font-size: 0;
+            a{
+              margin-left: 10px;
+              padding-right: 10px;
+              font-size: 12px;
+              border-right: 1px solid #b3aeae;
+              &:last-child{
+                border: none;
+                margin-right: 0;
+                padding-right: 0;
               }
             }
           }

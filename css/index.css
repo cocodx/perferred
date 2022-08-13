@@ -12,6 +12,9 @@
   display: block;
   content: '';
 }
+#wrapper #header .headTop .headTopMain .left {
+  float: left;
+}
 #wrapper #header .headTop .headTopMain .left h5 {
   float: left;
   margin-right: 5px;
@@ -23,5 +26,22 @@
   border-right: 1px solid #b3aeae;
   margin-right: 0;
   padding-right: 5px;
+}
+#wrapper #header .headTop .headTopMain .right {
+  float: right;
+}
+#wrapper #header .headTop .headTopMain .right nav {
+  font-size: 0;
+}
+#wrapper #header .headTop .headTopMain .right nav a {
+  margin-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  border-right: 1px solid #b3aeae;
+}
+#wrapper #header .headTop .headTopMain .right nav a:last-child {
+  border: none;
+  margin-right: 0;
+  padding-right: 0;
 }
 /*# sourceMappingURL=index.css.map */
