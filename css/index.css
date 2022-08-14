@@ -113,4 +113,19 @@
   line-height: 50px;
   float: left;
 }
+#wrapper #content .contentMain {
+  width: 1200px;
+  margin: 15px auto 0 auto;
+}
+#wrapper #content .contentMain #navPath {
+  padding: 9px 15px 9px 0;
+  font-size: 0;
+}
+#wrapper #content .contentMain #navPath a {
+  font-size: 12px;
+}
+#wrapper #content .contentMain #navPath i {
+  padding: 0 5px;
+  font-size: 12px;
+}
 /*# sourceMappingURL=index.css.map */
