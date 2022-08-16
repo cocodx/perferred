@@ -128,4 +128,43 @@
   padding: 0 5px;
   font-size: 12px;
 }
+#wrapper #content .contentMain #center {
+  margin: 5px 0 15px;
+}
+#wrapper #content .contentMain #center #left {
+  width: 400px;
+  float: left;
+}
+#wrapper #content .contentMain #center #left #leftTop {
+  width: 400px;
+  position: relative;
+}
+#wrapper #content .contentMain #center #left #leftTop #smallPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+#wrapper #content .contentMain #center #left #leftTop #smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#wrapper #content .contentMain #center #left #leftTop #bigPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  left: 420px;
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+}
+#wrapper #content .contentMain #center #left #leftTop #bigPic img {
+  width: 800px;
+  height: 800px;
+}
 /*# sourceMappingURL=index.css.map */

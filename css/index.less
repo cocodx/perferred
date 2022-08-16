@@ -149,6 +149,53 @@
           font-size: 12px;
         }
       }
+
+      //中间区域开始
+      #center{
+        margin: 5px 0 15px;
+        //左侧放大镜
+        #left{
+          width: 400px;
+          float: left;
+          //上边
+          #leftTop{
+            width: 400px;
+            position: relative;
+            //小图框
+            #smallPic{
+              width: 400px;
+              height: 400px;
+              border: 1px solid #dfdfdf;
+              position: relative;
+              img{}
+              //蒙版元素
+              .mask{
+                width: 200px;
+                height: 200px;
+                background: rgba(255,255,255,.5);
+                border: 1px solid #ddd;
+                position: absolute;
+                left: 0;
+                top: 0;
+              }
+            }
+            #bigPic{
+              width: 400px;
+              height: 400px;
+              border: 1px solid #ddd;
+              left: 420px;
+              top: 0;
+              position: absolute;
+              overflow: hidden;
+              //大图片
+              img{
+                width: 800px;
+                height: 800px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
